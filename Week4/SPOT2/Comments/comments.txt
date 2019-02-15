@@ -1,0 +1,17 @@
+/*** Definition section ***/
+%{
+%}
+/* C code to be copied verbatim */
+/* This tells flex to read only one input file */
+%%
+[0-9]+
+.|\n
+%%
+/*** Rules section ***/
+/* [0-9]+ matches a string of one or more digits */
+{ /* yytext is a string containing the matched text. */
+}
+{
+/* Ignore all other characters. */
+}
+/*** C Code section ***/
