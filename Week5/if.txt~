@@ -1,0 +1,10 @@
+if (i==0)
+printf("i is zero");
+else if (i==8)
+printf("i is eight");
+else if (i==18)
+printf("i is eighteen");
+else if (i==28)
+printf("i is twenty eight");
+else
+statement;

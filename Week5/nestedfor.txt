@@ -1,0 +1,12 @@
+for(i=0;i<10;i++)
+{
+for(j=0;j<11;j++)
+{
+for(k=0;k<11;k++)
+{
+printf("Hello %d",k);
+}
+printf("Hello %d",j);
+}
+printf("Hello %d",i);
+}

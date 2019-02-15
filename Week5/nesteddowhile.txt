@@ -1,0 +1,10 @@
+int m=0;
+int k=0;
+do {
+printf("%d",m);
+m++;
+do {
+printf("%d",k);
+k++;
+}while( k<10 );
+}while( m<100 );
