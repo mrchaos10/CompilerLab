@@ -1,0 +1,10 @@
+%%
+^(abc)+$ {printf("String matched");}
+.* {printf("String Not matched");}
+%%
+int main()
+{
+yyin=fopen("concatabc.txt","r");
+yylex();
+return 0;
+}

@@ -1,0 +1,25 @@
+#define c 50
+{
+while ( (c = input()) != '*' && c != EOF )
+;
+if ( c == '*' )
+{
+while ( (c = input()) == '*' )
+;
+if ( c == '/' )
+break;
+/* found the end */
+}
+if ( c == EOF )
+{
+error( "EOF in comment" );
+BREAK;
+}
+}
+while (c ! = eof)
+{
+if (c = =1 )
+return “YES”;
+else
+return “NO”;
+}
