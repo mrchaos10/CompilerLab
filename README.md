@@ -1,2 +1,2 @@
 # CompilerLab
-StRaiGht fRoM tHe lAb niBBpEErs.
+Straight from the lab peers
